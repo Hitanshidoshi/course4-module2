@@ -92,3 +92,14 @@ section p{
 /*    color: black;*/
 /*    letter-spacing: 0.1em;*/
 }
+.pina h3{
+	background-color: rgb(245, 245, 190);
+}
+.green h3{
+    background-color: #a3e8a3;
+    color: crimson;
+}
+.razzle h3{
+    background-color: #ef9d9d;
+    color: navy;
+}
