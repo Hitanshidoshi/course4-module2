@@ -1,0 +1,94 @@
+h1{
+	text-align: center;
+	padding: 10px;
+	margin: 10px;
+    color: #653665;
+    font-size: 2.25em;
+    
+}
+span{
+	font-style: italic;
+	background-color: #570d0a;
+}
+/************ Desktop view ************/
+@media (min-width: 992px){
+	section{
+		width: 30%;
+		float: left;
+		height: 195px;
+	}
+
+}
+/************ Tablet view *************/
+@media (min-width: 768px) and (max-width: 991px){
+	.pina, .green{
+		width: 45%;
+		float: left;
+		height: 184px;
+	} 
+	.razzle{
+		width: 92.3%;
+		clear: both;
+		height: 184px;
+	}
+}
+/************* Mobile view ************/
+@media (max-width: 767px){
+	section{
+		clear: both;
+		height: 175px;
+		padding: 15px;
+		margin: 30px;
+
+	}
+	h1{
+		margin-bottom: 0;
+		padding: 0;
+
+	}
+
+}
+*{
+	box-sizing: border-box;
+	margin: 0px;
+	padding: 0px;
+    font-family: Garamond,"Times New Roman", Verdana, Georgia;
+    background-color: #F8F1E5;
+}
+
+section{
+	border: 1px solid black;
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	padding: 5px;
+	/*overflow: hidden;*/
+	position: relative;
+	/*height: 120px;*/
+	/*margin-right: 5px;*/
+    background-color: #570d0a;
+    
+}
+section h3{
+	position: absolute;
+	right: 0px;
+	top: 0px;
+	border-left: 1px solid black;
+	border-bottom: 1px solid black;
+	padding: 5px;
+    font-size: 125%;
+    padding: 7px;
+    
+}
+section p{
+	position: absolute;
+	top: 40px;
+	text-align: left;
+    padding-top: 5px;
+    background-color: #570d0a;
+    color: white;
+    font-size: 18px;
+    font-family: "Times New Roman";
+/*    color: black;*/
+/*    letter-spacing: 0.1em;*/
+}
